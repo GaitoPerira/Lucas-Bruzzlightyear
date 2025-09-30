@@ -27,9 +27,9 @@ jobs:
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v4
       with:
-        aws-access-key-id: ${{ secrets.ASIA6GBMBFHS2SIQFHAV }}
-        aws-secret-access-key: ${{secrets.M3K1ssHkzvcIuH761csHGp0KPYxFZhqRV/JY4t0/ }}
-        aws-session-token: ${{ secrets.IQoJb3JpZ2luX2VjEG8aCXVzLXdlc3QtMiJHMEUCIG9lbjq78XRbEGdkoY/WjbtfabO7rlWjRhWC4McSXNyJAiEAmuL1C/lTzKh8aXFFBhVyLjurQbniZqseU7/ma49fhPEqtwII9///////////ARAAGgw5NzUwNDk5MjcxNDEiDMFWvZkPK9XDqCFEXSqLAjje6pq2dq0Ekc4OUMK9RCm5Cp+v0Cn9nXnvmN8HvOhm6vRnWf39pKceuWK50SA53iInE/Vi8hsFDy4b7KgItmob8zSxSKNekw4j41YvUXGAKHAz2v0OuiTXGtPTBGH3Q3joST/L+9gBkBk7HnyOX6Eq2aAvehpeELLVpqI2NOsSmnxLYxIsmt9TtVrt2Y5hvAtaKW6j4MgWPgnoqgVJWSXvdpXmA7OUwYoKFMQdpZ6iaSPuoswLYyR1dab8vyQvMdux/sZujRcNOeNuwjv+WipNkjnLxquUOO/Xfg4ocV0T1lR80CK4mXh7c2EuiUDOEsAYKf1+nkpSXGbzKNG0mYZv1Bs431o7hb3eVDD2rvHGBjqdAS7o9jKSakg9b6JZZhzSLLEy51bCJVpdKe4zvg8ZcxeerPJ5AcaJ0bbcw3vMLPcwK9V3XWnlidYGGipigPhFW0pswqtz5xmAi3azNMA3dZPN1FLqNjk+d8kmkDjDXOKavMzc/3CbyUBBeeKxPRc73ncOWgskyuSrUnT6h+47y5dEzyIt3qxx9S1F0mPlS4R/zyDHv6h94JSsygpP/kY=}}
+      aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
         aws-region: us-east-1
         
     - name: Build Node.js Lambda Functions
