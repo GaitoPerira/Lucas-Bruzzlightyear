@@ -9,6 +9,6 @@ variable "environment" {
 }
 
 variable "project_name" {
-  description = "Name of the project"
+  description = "Projeto Lucas Buzzlightyear"
   type        = string
 }
