@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     # Substitua pelos seus valores
     bucket         = "bruzzlightyear"
-    key            = "example-aws-terraform-template/terraform.tfstate"
+    key            = "pizza-key/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "pizza"
     encrypt        = true
