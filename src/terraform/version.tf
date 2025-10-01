@@ -1,10 +1,10 @@
 terraform {
   backend "s3" {
     # Substitua pelos seus valores
-    bucket         = "padaria-online-terraform"
-    key            = "padaria-online-terraform/terraform.tfstate"
+    bucket         = "bruzzlightyear"
+    key            = "example-aws-terraform-template/terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "terraform-lock-state"
+    dynamodb_table = "pizza"
     encrypt        = true
   }
 
