@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Padaria Online</title>
+    <title>Pizzaria Vasco da Gama</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header -->
     <header>
         <nav>
-            <div class="asoaksaoks">
-                <h2>🥖 Padaria Online</h2>
+            <div class="logo">
+                <h2>🍕 Vasco da Gama</h2>
             </div>
             <ul class="nav-links">
                 <li><a href="#home">Início</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -27,28 +27,40 @@
         <!-- Hero Section -->
         <section id="home" class="hero">
             <div class="hero-content">
-                <h1>Bem-vindo à nossa Padaria</h1>
-                <p>Os melhores pães e doces artesanais da região</p>
-                <button class="btn-primary">Ver Produtos</button>
+                <h1>Explore o mundo dos sabores</h1>
+                <p>Na Pizzaria Vasco da Gama, cada fatia é uma viagem gastronômica.</p>
+                <button class="btn-primary" onclick="scrollToSection('cardapio')">Ver Cardápio</button>
             </div>
         </section>
 
-        <!-- Produtos Section -->
-        <section id="produtos" class="produtos">
+        <!-- Sobre Section -->
+        <section id="sobre" class="sobre">
             <div class="container">
-                <h2>Nossos Produtos</h2>
+                <h2>Sobre Nós</h2>
+                <p>
+                    Inspirada pelo espírito aventureiro do grande navegador Vasco da Gama, nossa pizzaria traz sabores
+                    que atravessam fronteiras. Trabalhamos com ingredientes frescos e receitas artesanais,
+                    proporcionando uma verdadeira expedição culinária em cada pedaço.
+                </p>
+            </div>
+        </section>
+
+        <!-- Cardápio Section -->
+        <section id="cardapio" class="cardapio">
+            <div class="container">
+                <h2>Nosso Cardápio</h2>
                 <div class="produtos-grid">
                     <div class="produto-card">
-                        <h3>Pães</h3>
-                        <p>Pão francês, integral, doce e muito mais</p>
+                        <h3>🍕 Pizza Portuguesa</h3>
+                        <p>Presunto, ovo, cebola, azeitona e queijo.</p>
                     </div>
                     <div class="produto-card">
-                        <h3>Doces</h3>
-                        <p>Bolos, tortas, brigadeiros e sobremesas</p>
+                        <h3>🌍 Pizza Mediterrânea</h3>
+                        <p>Queijo feta, azeitonas pretas, tomate seco e manjericão.</p>
                     </div>
                     <div class="produto-card">
-                        <h3>Salgados</h3>
-                        <p>Coxinhas, empadas, esfirras e lanches</p>
+                        <h3>🔥 Pizza Vulcão</h3>
+                        <p>Calabresa apimentada, catupiry e molho especial.</p>
                     </div>
                 </div>
             </div>
@@ -59,9 +71,9 @@
             <div class="container">
                 <h2>Entre em Contato</h2>
                 <div class="contato-info">
-                    <p><strong>Telefone:</strong> (11) 9999-9999</p>
-                    <p><strong>Endereço:</strong> Rua das Padarias, 123</p>
-                    <p><strong>Horário:</strong> Seg-Dom: 6h às 20h</p>
+                    <p><strong>Telefone:</strong> (11) 4002-8922</p>
+                    <p><strong>Endereço:</strong> Rua das Navegações, 150 - Lisboa SP</p>
+                    <p><strong>Horário:</strong> Seg-Dom: 18h às 00h</p>
                 </div>
             </div>
         </section>
@@ -70,7 +82,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 Padaria Online. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Pizzaria Vasco da Gama. Todos os direitos reservados.</p>
         </div>
     </footer>
 
