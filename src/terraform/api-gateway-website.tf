@@ -81,6 +81,8 @@ resource "aws_apigatewayv2_stage" "website_stage" {
     throttling_rate_limit    = 50
   }
 
+  depends_on = [aws_cloudwatch_log_group.website_api_logs]
+
   tags = {
     Name = "${var.project_name}-website-stage-${var.environment}"
   }
