@@ -12,6 +12,7 @@ data "archive_file" "nodejs_lambda_zip" {
   output_path = "${path.module}/nodejs_lambda.zip"
 }
 
+
 # ===================================
 # SECURITY GROUP PARA LAMBDAS
 # ===================================
