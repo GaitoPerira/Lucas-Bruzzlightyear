@@ -26,15 +26,6 @@ output "bucket_arn" {
 # LAMBDA OUTPUTS (ORIGINAIS)
 # ===================================
 
-output "python_lambda_function_name" {
-  description = "Nome da função Lambda Python"
-  value       = aws_lambda_function.python_lambda.function_name
-}
-
-output "python_lambda_arn" {
-  description = "ARN da função Lambda Python"
-  value       = aws_lambda_function.python_lambda.arn
-}
 
 output "nodejs_lambda_function_name" {
   description = "Nome da função Lambda Node.js"
